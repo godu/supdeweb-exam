@@ -1,0 +1,264 @@
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	background: transparent;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+body {
+	line-height: 1;
+}
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+	font-weight: normal;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote {
+	quotes: none;
+}
+blockquote:before, blockquote:after {
+	content: '';
+	content: none;
+}
+del {
+	text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a img {
+	border: none;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+html[xmlns] .clearfix {
+	display: block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+::-webkit-input-placeholder {
+	font-style:italic;
+	color:#bfbfbf;
+}
+
+:-moz-placeholder {
+	font-style:italic;
+	color:#bfbfbf;
+}
+:focus {
+	outline:none;
+}
+.clear {clear: both; width:100%;}
+/* =Layout
+-------------------------------------------------------------- */
+body {
+	font-family: 'Droid Sans', sans-serif;
+	font-size:13px;
+	line-height:1.5em;
+	color:#382f2a;
+	overflow-y:scroll;
+	text-shadow:1px 1px 0px #ffffff;
+	behavior: url(/?pie=true);
+	overflow-x: hidden;
+	background: transparent !important;
+}
+a {
+	color:#222222;
+}
+a:hover, .current_page_item a{
+	color:#006294;
+	text-decoration:none;
+}
+a.blue {
+	color:#006294;
+	text-decoration:none;
+}
+a.blue:hover {
+	text-decoration:underline;
+}
+.spacer5 {
+	float:left;
+	width:100%;
+	height:5px;
+	clear:both;
+}
+.spacer10 {
+	float:left;
+	width:100%;
+	height:10px;
+	clear:both;
+}
+.spacer20 {
+	float:left;
+	width:100%;
+	height:20px;
+	clear:both;
+}
+.spacer30 {
+	float:left;
+	width:100%;
+	height:30px;
+	clear:both;
+}
+.last {
+	margin-right:0px !important;
+}
+.inkybox {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	behavior: url(/?pie=true);
+}
+.container {
+	float:left;
+	width:98%;
+	margin:0 1%;
+	position:relative;
+}
+.deals, .deals div {
+	box-sizing: border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+}
+/* =Deal List
+-------------------------------------------------------------- */
+.dealbox {
+	float:left;
+	width:46%;
+	min-width:150px;
+	margin:0 3% 4% 1%;
+	padding:20px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	behavior: url(/?pie=true);
+}
+.dealbox.last {
+	margin:0 1% 5% 3%;
+}
+
+.deal-title {
+	float:left;
+	width:100%;
+	font-size:14px;
+	line-height:1.3em;
+	height:5.5em;
+	font-family: 'Patua One', cursive;
+	text-align:center;
+	overflow:hidden;
+}
+.deal-title a {
+	text-decoration:none;
+}
+.deal-image {
+	float:left;
+	width:100%;
+	padding:1px;
+	border:1px solid #a8a8a8;
+	background:#ffffff;
+	margin-bottom:20px;
+}
+.deal-image img {
+	width:100%;
+	height:auto;
+}
+.deal-rating {
+	float:left;
+	width:100%;
+	margin-bottom:20px;
+	text-align:center;
+}
+.star-rating {
+	width:100px;
+	height:16px;
+	display:inline-block;
+	background:url(../images/stars.png) no-repeat;
+	vertical-align: -15%;
+}
+.deal-rating .star-rating {
+	margin-left:5px;
+}
+div.star-rating {
+	float:left;
+}
+.stars-1 {
+	background-position:0 -16px;
+}
+.stars-2 {
+	background-position:0 -32px;
+}
+.stars-3 {
+	background-position:0 -48px;
+}
+.stars-4 {
+	background-position:0 -64px;
+}
+.stars-5 {
+	background-position:0 -80px;
+}
+.deal-details {
+	float:left;
+	background:#ffffff;
+	width:100%;
+	padding:20px 5px;
+	margin-bottom:20px;
+	text-align:center;
+}
+.deal-detail {
+	float:left;
+	width:33.3%;
+	text-align:center;
+	color:#888787;
+	font-size:11px;
+}
+.deal-detail span {
+	font-size:14px;
+	font-weight:bold;
+	line-height:1.3em;
+	color:#525252;
+}
+.deal-detail.yousave{
+	color:#525252;
+}
+.deal-view {
+	float:left;
+	width:100%;
+	text-align:center;
+}
+.deal-view a {
+	width:129px;
+	height:36px;
+	display:inline-block;
+	margin:0 auto;
+}
+.deal-view a:hover {
+	background-position: 0 0 !important;
+}

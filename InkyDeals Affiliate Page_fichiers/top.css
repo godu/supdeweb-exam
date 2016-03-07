@@ -1,0 +1,41 @@
+.logo a {
+	background:url(../images/logo.png) no-repeat;
+	width:352px;
+	height:84px;
+	text-indent:-9999px;
+	display:block;
+	margin-bottom:10px;
+}
+.menu.inkybox {
+	background:url(../images/top_menu_off.jpg) repeat-x top;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border:none;
+}
+.menu {
+	position:relative;
+	float:left;
+	width:100%;
+	margin-bottom:20px;
+}
+.menu ul li {
+	float:left;
+	padding:0 5px;
+	font-size:13px;
+	line-height:35px;
+}
+.menu ul li a {
+	color:#8e8e8e;
+	text-decoration:none;
+}
+.menu ul li a:hover, .menu ul li.current-cat a {
+	color:#222222;
+}
+.menu ul li.current-cat {
+	background:url(../images/top_menu_on.jpg) repeat-x top;
+}
+.deals {
+	float:left;
+	width:100%;
+}

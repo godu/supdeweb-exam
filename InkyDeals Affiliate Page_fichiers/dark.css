@@ -1,0 +1,14 @@
+.inkybox {
+	background:#e6e6e6;
+	-moz-box-shadow: 0px 1px 3px #989898;
+	-webkit-box-shadow: 0px 1px 3px #989898;
+	box-shadow: 0px 1px 3px #989898;
+}
+/* =Deal List
+-------------------------------------------------------------- */
+.dealbox {
+	background:#f0f0f0;
+	-moz-box-shadow: 0px 1px 3px #989898;
+	-webkit-box-shadow: 0px 1px 3px #989898;
+	box-shadow: 0px 1px 3px #989898;
+}
