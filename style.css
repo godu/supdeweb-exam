@@ -151,7 +151,7 @@ input {
 }
 
 input[type="checkbox"],input[type="radio"] {
-  box-sizing: border-box; 
+  box-sizing: border-box;
   padding: 0;
 }
 
@@ -163,7 +163,7 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box; 
+  -webkit-box-sizing: content-box;
   box-sizing: content-box;
 }
 
@@ -178,7 +178,7 @@ fieldset {
 }
 
 legend {
-  border: 0; 
+  border: 0;
   padding: 0;
 }
 
@@ -407,7 +407,7 @@ html {
 	height:450px;
 	background-position:center top;
 	background-color:transparent;
-	background-image:url('images/css/banner-bg.jpg');
+	background-image:url('images/css/banner-bg.bmp');
 	background-repeat:no-repeat;
 	overflow:hidden;
 }
